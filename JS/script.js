@@ -1,10 +1,8 @@
-// scripts.js
-
-function fadeInElements() {
-    const elements = document.querySelectorAll('.fade-in');
+function slideInElements() {
+    const elements = document.querySelectorAll('.banner, .sub-banner');
     elements.forEach(element => {
-        element.classList.add('show');
+        element.classList.add('slide-in');
     });
 }
 
-window.onload = fadeInElements;
+window.onload = slideInElements;
