@@ -1,0 +1,50 @@
+@font-face { 
+    font-family: 'Blanquotey'; /* Font family name */
+    src: url('../Asset/Fonts/blanquotey/Blanquotey.ttf') format('truetype'); /* Font file path */
+}
+
+h1 {
+    font-family: Blanquotey;
+}
+
+h5 {
+    font-family: Blanquotey;
+}
+
+.homebanner {
+    background-color: #343a40;
+    color: white;
+    padding: 20% 0;
+    text-align: center;
+}
+
+.banner {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.subbanner {
+    background-color: #495057;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.subbanner .btn {
+    margin: 0 10px;
+}
+
+.title{
+    font-family: Blanquotey;
+}
+
+.heading{
+    font-family: Blanquotey;
+    text-align: center;
+}
+
+.texts{
+    text-align: center;
+}
